@@ -24,9 +24,9 @@ For DNN+MER:
 ```
 python 10-nonlinearized-dual-multi.py 4 2 100
 ```
-Here, args[1] = total subgroup number $N$;  \\
-args[2] = number of minor-class subgroup $c$ \\
-args[3] = number of data in each subgroup $s_j$ ;
+Here, args[1] = total subgroup number $N$;    
+args[2] = number of minor-class subgroup $c$;     
+args[3] = number of data in each subgroup $s_j$ ;   
 
 
 
