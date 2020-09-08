@@ -13,25 +13,28 @@ tensorflow-gpu-1.13.1
 cvxopt-1.2.5
 ```
 
-For toydata:
+Toydata:
 ```
 python MER_for_toydata.py
 ```
 
-For DNN+MER: 
+CelebA:  
+1, DNN+MER
 
 
 ```
 python 10-nonlinearized-dual-multi.py 4 2 100
-```
+``` 
 Here, args[1] = total subgroup number $N$;    
 args[2] = number of minor-class subgroup $c$;     
 args[3] = number of data in each subgroup $s_j$ ;   
 
 
 
-For ResNet+MER:
+2, ResNet+MER:
 
 ```
 python nonlinearized-dual-ResNet.py 4 2 100
 ```
+
+The label are "eyeglasses" in CelebA dataset, which can be changed in data_process.py. 
