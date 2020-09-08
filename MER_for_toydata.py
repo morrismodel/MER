@@ -178,4 +178,4 @@ plt.plot([-0.4,3],[-0.4*wout[0] + bout, 3*wout[0] + bout],linewidth=1.0,color='c
 plt.plot([-0.4,3],[-0.4*wMER+bMER, 3*wMER+bMER],linewidth=1.0,color='#4682B4',linestyle='-')
 plt.legend(['AvgLoss','MaxLoss'],fontsize=20)
 plt.tick_params(labelsize=16)
-plt.savefig('./regression_MER_compare.png', dpi=300)
+plt.savefig('./outcome/regression_MER_compare.png', dpi=300)
