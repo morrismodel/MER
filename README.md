@@ -14,10 +14,13 @@ python MER_for_toydata.py
 
 For DNN+MER: 
 
-args[1] refers $N$; args[2] refers $s_j$
+
 ```
 python 10-nonlinearized-dual-multi.py 4 100
 ```
+Here, args[1] refers total subgroup number $N$; 
+args[2] refers $s_j$
+
 
 For ResNet+MER:
 
