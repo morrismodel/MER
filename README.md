@@ -37,4 +37,4 @@ args[3] = number of data in each subgroup $s_j$ ;
 python nonlinearized-dual-ResNet.py 4 2 100
 ```
 
-The label are "eyeglasses" in CelebA dataset, which can be changed in data_process.py. 
+The label now is "eyeglasses" in CelebA dataset, which can be changed in data_process.py. 
