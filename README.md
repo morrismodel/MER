@@ -2,7 +2,7 @@
 # MER
 Nonlinear Monte Carlo Method for Imbalanced Data Learning
 
-\hline
+\rule[-10pt]{14.3cm}{0.05em}
 
 Dev requirement:
 
